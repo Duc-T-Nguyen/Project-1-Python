@@ -22,5 +22,9 @@ Session 7: 10-09-2025
 - implemented the history as just a list that keeps track of the items given to the program and when asked it will use a for loop to enumerate through the list to display the item number and then the item in the history
 - i also made a else statement where it handled if the command given was not one specified in the project requirements
 - i also started to implement the encryption for the vignere encryption as a seperate function called V_Encrypt
+Session 8: 10-10-2025
+- Basically sat down and powered through in making the v encryption and just used the same thing for the decryption (basically the only thing that changed was subtracting the shift_word when on that specific char)
+- created the quit condition where it will exit the conditon 
+- next is to implement the driver.py 
 
 
