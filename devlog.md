@@ -18,6 +18,9 @@ Session 5: 10-07-2025
 Session 6: 10-08-2025
 - talked with classmates about the project requirements and what the history should look like. We can to the conclusion that the history could be stored in a array or list that holds the encrypted word and not hold the unencrypted word because that would hold the sensitive words that could violate privacy.
 - Also the history will list out the item number when it is asked to show the history.
-
+Session 7: 10-09-2025
+- implemented the history as just a list that keeps track of the items given to the program and when asked it will use a for loop to enumerate through the list to display the item number and then the item in the history
+- i also made a else statement where it handled if the command given was not one specified in the project requirements
+- i also started to implement the encryption for the vignere encryption as a seperate function called V_Encrypt
 
 
