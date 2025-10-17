@@ -15,4 +15,9 @@ Session 4: 10-06-2025
 Session 5: 10-07-2025
 - started to create the conditions for the encyrption file. the file will check if the cmd given is either PASS, ENCRYPT, DECRYPT, OR anther command
 - I had problems with thinking of how to create the encryption method that was specified so I searched to see what were implementations online of the encryption method. I ended up using a method similiar to one i found on geeks
+Session 6: 10-08-2025
+- talked with classmates about the project requirements and what the history should look like. We can to the conclusion that the history could be stored in a array or list that holds the encrypted word and not hold the unencrypted word because that would hold the sensitive words that could violate privacy.
+- Also the history will list out the item number when it is asked to show the history.
+
+
 
