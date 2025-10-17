@@ -12,3 +12,7 @@ Session 4: 10-06-2025
 - the logger will get the action/cmd alongside the message/msg and get the current time with the datetime import and place it into the log file
 - also started working on the encryption file by reading the specification of the encryption file (seems relavtively simple to set the passkey and then encrypt and decryptd)
 - not sure about what the history should contain when logging it and displaying it
+Session 5: 10-07-2025
+- started to create the conditions for the encyrption file. the file will check if the cmd given is either PASS, ENCRYPT, DECRYPT, OR anther command
+- I had problems with thinking of how to create the encryption method that was specified so I searched to see what were implementations online of the encryption method. I ended up using a method similiar to one i found on geeks
+
