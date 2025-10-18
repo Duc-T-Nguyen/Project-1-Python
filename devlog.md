@@ -26,5 +26,13 @@ Session 8: 10-10-2025
 - Basically sat down and powered through in making the v encryption and just used the same thing for the decryption (basically the only thing that changed was subtracting the shift_word when on that specific char)
 - created the quit condition where it will exit the conditon 
 - next is to implement the driver.py 
+Session 9: 10-11-2025
+- implemented the driver funtioin by first have the user say python or python3 and give the Driver function and then the log file name ex: python Driver.py logs.txt
+- didn't add the intial comment in the log_file that stated the logging was started (will implement that later)
+- I want to implement the driver function by having a continuous while statment that will constantly keep checking for the input that will check if the input is one of the conditions in the given menu
+- I want to capitalize the input to make it easier to check for the command 
+- I also want to check for the passkey if it is alpha for the passkey, encryption, and decyption as per the project requirement.
+- after running it I need to fix the logger and ecnryption to check for a input from the pipe.
+
 
 
