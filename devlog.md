@@ -33,6 +33,11 @@ Session 9: 10-11-2025
 - I want to capitalize the input to make it easier to check for the command 
 - I also want to check for the passkey if it is alpha for the passkey, encryption, and decyption as per the project requirement.
 - after running it I need to fix the logger and ecnryption to check for a input from the pipe.
+Session 10: 10-12-2025
+- made changes to the encryption and logger files to check from the pipe the inputs and make sure to strip them from the buffer to log the actioin and check for the command in the encryption file
+- made sure to add \n in the file to mark for a new line
+- got to the run the files but there is a problem with the logger logging logs that don't have no new commands. I believe the problem lies with the while True statement constantly logging (will have to check for a way to fix that)
+- also found a problem maybe where the encryption part works but there is a lag between te responses of setting the passkey and it saying it set the new passkey even though it is already at giving a encryption word( I think it might be soemthing with the buffer)
 
 
 
