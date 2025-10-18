@@ -48,5 +48,7 @@ Session 12: 10-16-2025
 - found out we needed to create a dev log and local repo to record our dev (super stressed again)
 - got back home and started to try to fix the logger bug all i needed to do was just add checks to see if the cmd or the msg was empty or not and break if they were
 - created the dev log and tried to work on documenting work
+Session 13: 10-17-2025
+- fixed all bugs i found so far and started to record the dev log (this should be everything)
 
 
