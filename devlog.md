@@ -38,6 +38,11 @@ Session 10: 10-12-2025
 - made sure to add \n in the file to mark for a new line
 - got to the run the files but there is a problem with the logger logging logs that don't have no new commands. I believe the problem lies with the while True statement constantly logging (will have to check for a way to fix that)
 - also found a problem maybe where the encryption part works but there is a lag between te responses of setting the passkey and it saying it set the new passkey even though it is already at giving a encryption word( I think it might be soemthing with the buffer)
-
+Session 11: 10-13-2025
+- worked on the logger bug and tried to find a solution to it (nothing found so far)
+- fixed the problem with the staggered responses by using log or encryption process and flushing out the buffer to clear it out and remove the problem with stuff being stuck in the buffer
+- tried to work on the encryption thing and noticed the decrypt didn't increment the key_idx and the the ecnryption file didn't capitalize the word char before encrypting the char
+- attempted to add the key_idx and capitalize the char at the index (basically just tried to standardized the function with each other)
+- it worked the words is encrypted and decrypted fine after i capitalized the char
 
 
