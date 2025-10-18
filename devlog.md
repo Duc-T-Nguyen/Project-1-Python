@@ -44,5 +44,9 @@ Session 11: 10-13-2025
 - tried to work on the encryption thing and noticed the decrypt didn't increment the key_idx and the the ecnryption file didn't capitalize the word char before encrypting the char
 - attempted to add the key_idx and capitalize the char at the index (basically just tried to standardized the function with each other)
 - it worked the words is encrypted and decrypted fine after i capitalized the char
+Session 12: 10-16-2025
+- found out we needed to create a dev log and local repo to record our dev (super stressed again)
+- got back home and started to try to fix the logger bug all i needed to do was just add checks to see if the cmd or the msg was empty or not and break if they were
+- created the dev log and tried to work on documenting work
 
 
