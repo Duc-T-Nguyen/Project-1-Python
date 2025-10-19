@@ -1,0 +1,5 @@
+- To run the program open in your IDE of choice. 
+- type into the terminal python (python3 if using mac) Driver.py [The name of the log file you want to use as a log(I used logs.txt)]
+- Afterward it will display => ********* Menu: (PASS - ENCRYPT - DECRYPT - QUIT - HISTORY)
+- Please put in either the command pass, ecnrypt, decrypt, quit, or history (you can capitalize it or not capitalize it the input will be capitalized to process it)
+- Then give it a word to decrypt of encrypt if you set a passkey and it will display the result or you can quit or look at the history
