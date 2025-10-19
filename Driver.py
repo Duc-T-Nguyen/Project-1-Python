@@ -31,7 +31,7 @@ def Driver():
             encrypt_process.stdin.flush()
             #clear out buffer 
             response = encrypt_process.stdout.readline().strip()
-            #display to user that the buffer has been cleared out
+            #display to user that the buffer has been cleared out this fixes any problem with the encrypt process not displaying the updated passkey on time
             print(response)
         elif command.upper() == 'ENCRYPT':
             word = input('Please give a word to encrypt: ').strip()
@@ -54,15 +54,18 @@ def Driver():
             if not word_to_decrypt.isalpha():
                 print('Error: the word given is not alpha')
                 continue
+            # decrypt the word from the encrypted word to the actual word that it was supposed to be using the passkey
             encrypt_process.stdin.write(f'DECRYPT\n{word_to_decrypt}\n')
             encrypt_process.stdin.flush()
             result =  encrypt_process.stdout.readline().strip()
             print(f'Result: {result}')
             program_history.append(result)
+            #log the decryption of the encrypted word. it will show the decrypted word
             log_process.stdin.write(f'DECRYPT\n')
             log_process.stdin.write(f'decrypted word {result}\n')
             log_process.stdin.flush()
         elif command.upper() == 'QUIT':
+            # quit the program by sending to the log and encrypt the quit command which will handle and then end the program
             encrypt_process.stdin.write('QUIT\n')
             encrypt_process.stdin.flush()
             log_process.stdin.write('QUIT\n')
@@ -71,9 +74,11 @@ def Driver():
             print('Exiting the program')
             break
         elif command.upper() == 'HISTORY':
+            # iterate throught the program history and display all the items that were logged 
             for idx, item in enumerate(program_history, start=1):
                 print(f'Entry number: {idx} with the item: {item}')
         else:
+            # gave a command that doesn't exist
             print('You did not give a valid command, try again.')
 
 

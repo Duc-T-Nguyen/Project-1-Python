@@ -50,5 +50,7 @@ Session 12: 10-16-2025
 - created the dev log and tried to work on documenting work
 Session 13: 10-17-2025
 - fixed all bugs i found so far and started to record the dev log (this should be everything)
+Session 14: 10-18-2025
+- added some comments to the driver.py to help explain work flow and explain parts of program
 
 
